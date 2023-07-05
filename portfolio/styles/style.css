@@ -84,10 +84,10 @@ nav > * {
 }
 
 .home-content1 p {
-    color: white;
+    color: #D3CECE;
     letter-spacing: 1.2px;
     font-style: italic;
-    opacity: .8;
+    
     /* font-family: 'Delicious Handrawn', cursive; */
     /* font-size: 1.5em; */
 }
@@ -119,15 +119,136 @@ nav > * {
     /* background-color: red; */
 }
 
-
 .html-font {
     color: white;
 }
 
 /* skills style */
 .skills-grid {
+    display: grid;
+    grid-template: 250px 400px / 1fr;
     color: white;
+    width: 70%;
     height: 700px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+/* .skills-content1 {
+    background-color: red;
+}
+
+.skills-content2 {
+    background-color: blue;
+} */
+
+
+.skills-content1 h2 {
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.skills-content1 p {
+    color: #D3CECE;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+.skills-content2 > * {
+    margin: 20px 0;
+}
+
+.html5-title, .css3-title, .php-title, .sql-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.html5-title > * {
+    padding-right: 5px;
+}
+
+.css3-title > * {
+    padding-right: 5px;
+}
+
+.php-title > * {
+    padding-right: 5px;
+}
+
+.sql-title > * {
+    padding-right: 5px;
+}
+
+.html5 i {
+    font-size: 2em;
+    color: #FFA500;
+}
+
+.css3 i {
+    font-size: 2em;
+    color: #264DE4;
+}
+
+.php i {
+    font-size: 2em;
+    color: #4F5B93;
+}
+
+.sql i {
+    font-size: 2em;
+    color: #B2B2B2;
+}
+
+.progress {
+    background-color: #E9ECEF;
+    border-radius: 2px;
+    height: 25px;
+    display: flex;
+}
+
+.html5-progress-bar {
+    width: 90%;
+    background-color: #FFA500;
+    border-radius: 2px 0 0 2px;
+    height: 25px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.css3-progress-bar {
+    width: 80%;
+    background-color: #264DE4;
+    border-radius: 2px 0 0 2px;
+    height: 25px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.php-progress-bar {
+    width: 85%;
+    background-color: #4F5B93;
+    border-radius: 2px 0 0 2px;
+    height: 25px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.sql-progress-bar {
+    width: 80%;
+    background-color: #B2B2B2;
+    border-radius: 2px 0 0 2px;
+    height: 25px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
 }
 
 /* projects style */
