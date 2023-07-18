@@ -64,6 +64,10 @@ nav > * {
     background-color: #778DA9;
 }
 
+.active {
+    background-color: #778DA9;
+}
+
 .main-grid {
     display: grid;
     /* grid-template-columns: repeat(6, 1fr);
